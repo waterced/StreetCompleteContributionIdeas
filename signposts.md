@@ -35,7 +35,9 @@ Several new quests related to guideposts
 - 💤 **No spam**: ☑️ Some guidepost do have a name, other don't.
 - 💵 **Valuable Surveyors**: ☑️ Such data cannot be obtained from aerial views, survey is the best.
 
-###  Implementation
+###  Quest generation
+Generated for elements 
+### User Interface 
 *Does this guideposts has a name* (y/n)
 If yes, creates tag `name=`, if not add the tag `noname=yes`
 
