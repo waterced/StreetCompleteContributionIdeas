@@ -1,13 +1,45 @@
 # Guideposts
 Several new quests related to guideposts
-## Context
-[Guideposts](https://wiki.openstreetmap.org/wiki/Tag:information%3Dguidepost) are touristic information infrastructure helping orientation. There use in . In Openstreetmap, there are described with the combination of tags `tourism=information` and `information=guidepost`. Signposts have recently faced a growing interest from outdoor-related openstreetmap contributors, as they are key elements for [Node Networks](https://wiki.openstreetmap.org/wiki/Node_Networks), which are used to map hiking path network, notably in [French Alps](https://knooppuntnet.nl/en/map/hiking?position=45.18829306,5.89704611,13). For these reasons, 
 
-### Name
+## Guidelines
+
+### General guidelines
+- ⚛️ **Atomic quests**: ☑️
+- 🚧 **Established tags only**: ☑️
+- 🤷 **Useful purpose**: ☑️ [Guideposts](https://wiki.openstreetmap.org/wiki/Tag:information%3Dguidepost) are touristic information infrastructure helping orientation. There use in . In Openstreetmap, there are described with the combination of tags `tourism=information` and `information=guidepost`. Signposts have recently faced a growing interest from outdoor-related openstreetmap contributors, as they are key elements for [Node Networks](https://wiki.openstreetmap.org/wiki/Node_Networks), which are used to map hiking path network, notably in [French Alps](https://knooppuntnet.nl/en/map/hiking?position=45.18829306,5.89704611,13).
+- 🕓 **Effort vs impact**: ☑️ There are around [473k guidepost](https://taginfo.openstreetmap.org/tags/information=guidepost) worlwide reported on Openstreetmap. 
+
+### Users
+- 🤔 **No unanswerable quests**: ☑️ There is either a name or no.
+- 👨‍💻 **Users are no experts**: ☑️
+- 🐿️ **Easy answer**: ☑️ 
+- 🕵️ **Publicly accessible on foot**: ☑️ Hiking routes
+- 💤 **No spam**: ☑️ Some guidepost do have a name, other don't.
+- 💵 **Valuable Surveyors**: ☑️ Such data cannot be obtained from aerial views, survey is the best.
+
+
+
+
+## Name
+### General guidelines
+- ⚛️ **Atomic quests**: ☑️
+- 🚧 **Established tags only**: ☑️
+- 🤷 **Useful purpose**: ☑️ [Guideposts](https://wiki.openstreetmap.org/wiki/Tag:information%3Dguidepost) are touristic information infrastructure helping orientation. There use in . In Openstreetmap, there are described with the combination of tags `tourism=information` and `information=guidepost`. Signposts have recently faced a growing interest from outdoor-related openstreetmap contributors, as they are key elements for [Node Networks](https://wiki.openstreetmap.org/wiki/Node_Networks), which are used to map hiking path network, notably in [French Alps](https://knooppuntnet.nl/en/map/hiking?position=45.18829306,5.89704611,13).
+- 🕓 **Effort vs impact**: ☑️ There are around [473k guidepost](https://taginfo.openstreetmap.org/tags/information=guidepost) worlwide reported on Openstreetmap. 
+
+### Users
+- 🤔 **No unanswerable quests**: ☑️ There is either a name or no.
+- 👨‍💻 **Users are no experts**: ☑️
+- 🐿️ **Easy answer**: ☑️ 
+- 🕵️ **Publicly accessible on foot**: ☑️ Hiking routes
+- 💤 **No spam**: ☑️ Some guidepost do have a name, other don't.
+- 💵 **Valuable Surveyors**: ☑️ Such data cannot be obtained from aerial views, survey is the best.
+
+###  Implementation
 *Does this guideposts has a name* (y/n)
 If yes, creates tag `name=`, if not add the tag `noname=yes`
 
-### Elevation
+## Elevation
 Guideposts located in moutain areas often display elevation, which is widley tagged as `ele` in Openstreetmap, unit is meters.
 
 *Is the elevation displayed on this guideposts* (y/n)
