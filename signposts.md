@@ -11,7 +11,7 @@ If yes, creates tag `name=`, if not add the tag `noname=yes`
 Guideposts located in moutain areas often display elevation, which is widley tagged as `ele` in Openstreetmap, unit is meters.
 
 *Is the elevation displayed on this guideposts* (y/n)
-If yes, elevation should be asked, in **meters** (this quest could be disabled in countries using imperial units for elevation) and tag `ele=` created accordingly. 
+If yes, elevation should be asked, in **meters** (this quest would be disabled by default in countries using imperial units for elevation) and tag `ele=` created accordingly. 
 If no, a tag describing lack of elevation data should be added. To my knowledge, no such tag is widely adopted for such a prupose, so here are two possible candidates:
 - `noele=yes`, used [68 times](https://taginfo.openstreetmap.org/keys/noele), inspired from `noname=yes`
 - `ele:signed=no`, used [10 times](https://taginfo.openstreetmap.org/search?q=ele%3Asigned%3Dno), which is directly inspired by tag `name:signed=no` largely popularized by Streetcomplete. My personnal preference goes to this one which is more emphising on the *lack of elevation display* than a *lack of elevation*. Community input is very welcome.
